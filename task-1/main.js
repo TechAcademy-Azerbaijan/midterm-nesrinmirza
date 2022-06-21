@@ -11,8 +11,7 @@ prompt.get('input', function (err, result) {
     var input = result.input; // "12,5"
     var numbers = input.split(','); // ['12', '5']
     var i = parseInt(numbers[0]); // Ilk daxil olunmuş ədədi alırıq. Nümunə - 12 
-    var a = parseInt(numbers[1]); // Ilk daxil olunmuş ədədi alırıq. Nümunə - 12 
-    var b = parseInt(numbers[2]); // Ilk daxil olunmuş ədədi alırıq. Nümunə - 12 
+    
     
 
     let a = i%10
